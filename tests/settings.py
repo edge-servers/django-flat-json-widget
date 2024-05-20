@@ -64,7 +64,7 @@ TEMPLATES = [
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
                 'django.template.loaders.app_directories.Loader',
-                'openwisp_utils.loaders.DependencyLoader',
+                'immunity_utils.loaders.DependencyLoader',
             ],
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -114,4 +114,4 @@ if not TESTING and SHELL:
         }
     )
 
-TEST_RUNNER = 'openwisp_utils.tests.TimeLoggingTestRunner'
+TEST_RUNNER = 'immunity_utils.tests.TimeLoggingTestRunner'

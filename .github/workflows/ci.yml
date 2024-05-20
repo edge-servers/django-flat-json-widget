@@ -44,7 +44,7 @@ jobs:
     - name: Upgrade python system packages
       run: pip install -U pip wheel setuptools
 
-    - name: Install openwisp-controller
+    - name: Install immunity-controller
       run: |
         pip install -U -e .[test]
 

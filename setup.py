@@ -27,8 +27,8 @@ setup(
     author_email='federico.capoano@gmail.com',
     description='Django Flat JSON Key/Value Widget',
     long_description=open('README.rst').read(),
-    url='https://github.com/openwisp/django-flat-json-widget',
-    download_url='https://github.com/openwisp/django-flat-json-widget/releases',
+    url='https://github.com/edge-servers/django-flat-json-widget',
+    download_url='https://github.com/edge-servers/django-flat-json-widget/releases',
     platforms=['Platform Independent'],
     keywords=['django', 'json', 'key-value', 'widget'],
     packages=find_packages(exclude=['tests*', 'docs*']),
@@ -37,8 +37,8 @@ setup(
     install_requires=[],
     extras_require={
         'test': [
-            'openwisp-utils[qa] @ '
-            'https://github.com/openwisp/openwisp-utils/tarball/master',
+            'immunity-utils[qa] @ '
+            'https://github.com/edge-servers/immunity-utils/tarball/master',
             'django-extensions~=3.2.0',
         ]
     },
